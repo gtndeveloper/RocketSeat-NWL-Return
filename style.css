@@ -75,3 +75,32 @@ button {
     margin-left: auto;
 }
 
+img {
+    filter: drop-shadow(0px -4px 2px var(--primary-color));
+}
+
+.info {
+    background-color: #FFFAF1;
+    height: 47rem;
+
+    margin-bottom: 1rem;
+
+    position: relative;
+    top: -1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.info h3 {
+    font-size: 4rem;
+    line-height: 130%;
+    color: #061800;
+}
+
+.info p {
+    color: var(--primary-color);
+}
