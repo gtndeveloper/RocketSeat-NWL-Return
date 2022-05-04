@@ -1,6 +1,7 @@
 function onScroll() {
-    if (scrollY > 10) {
+    if (scrollY > 0) {
         navigation.classList.add('scroll')
+        document.body.style.overflow = "initial"
     }
     else {
         navigation.classList.remove('scroll')
